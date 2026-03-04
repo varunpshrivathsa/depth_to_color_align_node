@@ -50,3 +50,7 @@ ros2 bag record \
 ```
 
 This command records synchronized RGB and aligned depth data for later playback and analysis.
+
+![Aligned Depth Output](imgs/Post%201.png)
+
+![Visualization](imgs/Post%202.png)

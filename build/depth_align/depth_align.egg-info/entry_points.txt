@@ -1,0 +1,2 @@
+[console_scripts]
+depth_to_color_align = depth_align.depth_to_color_align_node:main

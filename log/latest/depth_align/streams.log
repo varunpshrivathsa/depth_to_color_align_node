@@ -1,0 +1,65 @@
+[4.654s] Invoking command in '/home/agilex/align_ws/src/depth_align': PYTHONPATH=/home/agilex/align_ws/build/depth_align/prefix_override:/home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_align build --build-base /home/agilex/align_ws/build/depth_align/build install --record /home/agilex/align_ws/build/depth_align/install.log --install-scripts $base/lib/depth_align --single-version-externally-managed
+[5.025s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.025s] !!
+[5.026s] 
+[5.026s]         ********************************************************************************
+[5.026s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.026s]         versions. Please use the underscore name 'script_dir' instead.
+[5.026s] 
+[5.026s]         This deprecation is overdue, please update your project and remove deprecated
+[5.026s]         calls to avoid build errors in the future.
+[5.026s] 
+[5.027s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.027s]         ********************************************************************************
+[5.027s] 
+[5.027s] !!
+[5.027s]   opt = self.warn_dash_deprecation(opt, section)
+[5.280s] running egg_info
+[5.280s] creating ../../build/depth_align/depth_align.egg-info
+[5.322s] writing ../../build/depth_align/depth_align.egg-info/PKG-INFO
+[5.323s] writing dependency_links to ../../build/depth_align/depth_align.egg-info/dependency_links.txt
+[5.323s] writing entry points to ../../build/depth_align/depth_align.egg-info/entry_points.txt
+[5.323s] writing requirements to ../../build/depth_align/depth_align.egg-info/requires.txt
+[5.324s] writing top-level names to ../../build/depth_align/depth_align.egg-info/top_level.txt
+[5.570s] writing manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+[5.661s] reading manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+[5.663s] writing manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+[5.663s] running build
+[5.663s] running build_py
+[5.664s] creating /home/agilex/align_ws/build/depth_align/build
+[5.664s] creating /home/agilex/align_ws/build/depth_align/build/lib
+[5.664s] creating /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+[5.665s] copying depth_align/__init__.py -> /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+[5.665s] copying depth_align/depth_to_color_align_node.py -> /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+[5.666s] running install
+[5.666s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.666s] !!
+[5.667s] 
+[5.667s]         ********************************************************************************
+[5.667s]         Please avoid running ``setup.py`` directly.
+[5.667s]         Instead, use pypa/build, pypa/installer or other
+[5.667s]         standards-based tools.
+[5.668s] 
+[5.668s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.668s]         ********************************************************************************
+[5.668s] 
+[5.669s] !!
+[5.669s]   self.initialize_options()
+[5.679s] running install_lib
+[5.726s] creating /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+[5.726s] copying /home/agilex/align_ws/build/depth_align/build/lib/depth_align/__init__.py -> /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+[5.727s] copying /home/agilex/align_ws/build/depth_align/build/lib/depth_align/depth_to_color_align_node.py -> /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+[5.728s] byte-compiling /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align/__init__.py to __init__.cpython-38.pyc
+[5.729s] byte-compiling /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align/depth_to_color_align_node.py to depth_to_color_align_node.cpython-38.pyc
+[5.732s] running install_data
+[5.774s] creating /home/agilex/align_ws/install/depth_align/share/ament_index
+[5.774s] creating /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index
+[5.774s] creating /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index/packages
+[5.775s] copying resource/depth_align -> /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index/packages
+[5.775s] copying package.xml -> /home/agilex/align_ws/install/depth_align/share/depth_align
+[5.775s] running install_egg_info
+[5.824s] Copying ../../build/depth_align/depth_align.egg-info to /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align-0.0.0-py3.8.egg-info
+[5.826s] running install_scripts
+[5.936s] Installing depth_to_color_align script to /home/agilex/align_ws/install/depth_align/lib/depth_align
+[5.937s] writing list of installed files to '/home/agilex/align_ws/build/depth_align/install.log'
+[6.025s] Invoked command in '/home/agilex/align_ws/src/depth_align' returned '0': PYTHONPATH=/home/agilex/align_ws/build/depth_align/prefix_override:/home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_align build --build-base /home/agilex/align_ws/build/depth_align/build install --record /home/agilex/align_ws/build/depth_align/install.log --install-scripts $base/lib/depth_align --single-version-externally-managed

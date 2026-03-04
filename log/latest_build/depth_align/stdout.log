@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/depth_align/depth_align.egg-info
+writing ../../build/depth_align/depth_align.egg-info/PKG-INFO
+writing dependency_links to ../../build/depth_align/depth_align.egg-info/dependency_links.txt
+writing entry points to ../../build/depth_align/depth_align.egg-info/entry_points.txt
+writing requirements to ../../build/depth_align/depth_align.egg-info/requires.txt
+writing top-level names to ../../build/depth_align/depth_align.egg-info/top_level.txt
+writing manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+reading manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+writing manifest file '../../build/depth_align/depth_align.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/agilex/align_ws/build/depth_align/build
+creating /home/agilex/align_ws/build/depth_align/build/lib
+creating /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+copying depth_align/__init__.py -> /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+copying depth_align/depth_to_color_align_node.py -> /home/agilex/align_ws/build/depth_align/build/lib/depth_align
+running install
+running install_lib
+creating /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+copying /home/agilex/align_ws/build/depth_align/build/lib/depth_align/__init__.py -> /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+copying /home/agilex/align_ws/build/depth_align/build/lib/depth_align/depth_to_color_align_node.py -> /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align
+byte-compiling /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align/depth_to_color_align_node.py to depth_to_color_align_node.cpython-38.pyc
+running install_data
+creating /home/agilex/align_ws/install/depth_align/share/ament_index
+creating /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index
+creating /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index/packages
+copying resource/depth_align -> /home/agilex/align_ws/install/depth_align/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/align_ws/install/depth_align/share/depth_align
+running install_egg_info
+Copying ../../build/depth_align/depth_align.egg-info to /home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages/depth_align-0.0.0-py3.8.egg-info
+running install_scripts
+Installing depth_to_color_align script to /home/agilex/align_ws/install/depth_align/lib/depth_align
+writing list of installed files to '/home/agilex/align_ws/build/depth_align/install.log'

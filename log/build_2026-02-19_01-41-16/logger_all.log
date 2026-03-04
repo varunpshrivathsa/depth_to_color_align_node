@@ -1,0 +1,127 @@
+[15.264s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[15.264s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e881730>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e881730>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e4fefa0>)
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[15.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[15.895s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/align_ws'
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[15.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[15.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[15.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[15.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[15.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[15.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[15.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[15.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[15.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[15.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[15.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[15.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[15.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[15.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[15.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[15.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extensions ['ignore', 'ignore_ament_install']
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extension 'ignore'
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extension 'ignore_ament_install'
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extensions ['colcon_pkg']
+[15.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extension 'colcon_pkg'
+[15.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extensions ['colcon_meta']
+[15.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extension 'colcon_meta'
+[15.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extensions ['ros']
+[15.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_align) by extension 'ros'
+[15.942s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_align' with type 'ros.ament_python' and name 'depth_align'
+[15.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[15.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[15.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[15.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[15.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[17.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[17.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /home/agilex/limo_ros2_ws/install
+[18.085s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/foxy
+[18.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[18.766s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_args' from command line to 'None'
+[18.766s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_target' from command line to 'None'
+[18.766s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_clean_cache' from command line to 'False'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_clean_first' from command line to 'False'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'cmake_force_configure' from command line to 'False'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'ament_cmake_args' from command line to 'None'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'catkin_cmake_args' from command line to 'None'
+[18.767s] Level 5:colcon.colcon_core.verb:set package 'depth_align' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.767s] DEBUG:colcon.colcon_core.verb:Building package 'depth_align' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/align_ws/build/depth_align', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/align_ws/install/depth_align', 'merge_install': False, 'path': '/home/agilex/align_ws/src/depth_align', 'symlink_install': False, 'test_result_base': None}
+[19.011s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[19.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[19.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/align_ws/src/depth_align' with build type 'ament_python'
+[19.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_align', 'ament_prefix_path')
+[19.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[19.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/ament_prefix_path.ps1'
+[19.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/ament_prefix_path.dsv'
+[19.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/ament_prefix_path.sh'
+[19.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.143s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/align_ws/src/depth_align'
+[21.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/align_ws/src/depth_align': PYTHONPATH=/home/agilex/align_ws/build/depth_align/prefix_override:/home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_align build --build-base /home/agilex/align_ws/build/depth_align/build install --record /home/agilex/align_ws/build/depth_align/install.log --install-scripts $base/lib/depth_align --single-version-externally-managed
+[25.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/align_ws/src/depth_align' returned '0': PYTHONPATH=/home/agilex/align_ws/build/depth_align/prefix_override:/home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_align build --build-base /home/agilex/align_ws/build/depth_align/build install --record /home/agilex/align_ws/build/depth_align/install.log --install-scripts $base/lib/depth_align --single-version-externally-managed
+[25.565s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align' for CMake module files
+[25.566s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align' for CMake config files
+[25.568s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align/lib'
+[25.569s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align/bin'
+[25.569s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align/lib/pkgconfig/depth_align.pc'
+[25.570s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align/lib/python3.8/site-packages'
+[25.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_align', 'pythonpath')
+[25.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/pythonpath.ps1'
+[25.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/pythonpath.dsv'
+[25.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/align_ws/install/depth_align/share/depth_align/hook/pythonpath.sh'
+[25.844s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/align_ws/install/depth_align/bin'
+[25.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_align)
+[26.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/align_ws/install/depth_align/share/depth_align/package.ps1'
+[26.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/align_ws/install/depth_align/share/depth_align/package.dsv'
+[26.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/align_ws/install/depth_align/share/depth_align/package.sh'
+[26.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/align_ws/install/depth_align/share/depth_align/package.bash'
+[26.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/align_ws/install/depth_align/share/depth_align/package.zsh'
+[26.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/align_ws/install/depth_align/share/colcon-core/packages/depth_align)
+[26.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.400s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.454s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/align_ws/install/local_setup.ps1'
+[26.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/align_ws/install/_local_setup_util_ps1.py'
+[26.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/align_ws/install/setup.ps1'
+[27.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/align_ws/install/local_setup.sh'
+[27.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/align_ws/install/_local_setup_util_sh.py'
+[27.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/align_ws/install/setup.sh'
+[27.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/align_ws/install/local_setup.bash'
+[27.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/align_ws/install/setup.bash'
+[27.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/align_ws/install/local_setup.zsh'
+[27.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/align_ws/install/setup.zsh'
